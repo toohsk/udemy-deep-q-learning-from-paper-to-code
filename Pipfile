@@ -17,7 +17,7 @@ autopep8 = "*"
 flake8-import-order = "*"
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
 
 [scripts]
 lint = "flake8 --show-source ."
