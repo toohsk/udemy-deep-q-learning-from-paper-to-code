@@ -6,10 +6,10 @@ name = "pypi"
 [packages]
 torch = "*"
 torchvision = "*"
-numpy = "*"
 gym = "*"
 box2d-py = "*"
 atari-py = "*"
+matplotlib = "==3.2.2"
 
 [dev-packages]
 flake8 = "*"
@@ -22,4 +22,3 @@ python_version = "3.6"
 [scripts]
 lint = "flake8 --show-source ."
 format = "autopep8 -ivr --aggressive ."
-
